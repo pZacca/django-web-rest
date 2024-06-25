@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'webrest.urls'
+ROOT_URLCONF = 'project.urls'
 
 TEMPLATES = [ # type: ignore
     {
@@ -71,7 +71,7 @@ TEMPLATES = [ # type: ignore
     },
 ]
 
-WSGI_APPLICATION = 'webrest.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 
 # Database
